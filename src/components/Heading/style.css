@@ -1,0 +1,76 @@
+.heading {
+  gap: 10px;
+  position: relative;
+}
+
+.heading .typography-content {
+  font-family: var(--content-heading-3-font-family);
+  font-size: var(--content-heading-3-font-size);
+  font-style: var(--content-heading-3-font-style);
+  font-weight: var(--content-heading-3-font-weight);
+  letter-spacing: var(--content-heading-3-letter-spacing);
+  line-height: var(--content-heading-3-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.heading.inverse {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading.left {
+  align-items: flex-start;
+  display: flex;
+}
+
+.heading.right {
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.heading.center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 302px;
+}
+
+.heading.standard.right {
+  display: inline-flex;
+}
+
+.heading.standard.left {
+  width: 335px;
+}
+
+.heading.inverse.right {
+  width: 280px;
+}
+
+.heading.inverse.left {
+  width: 280px;
+}
+
+.heading.standard .typography-content {
+  color: var(--filltextprimary);
+}
+
+.heading.inverse .typography-content {
+  align-self: stretch;
+  color: var(--filltextprimary-inverse);
+}
+
+.heading.right .typography-content {
+  align-self: stretch;
+  text-align: right;
+}
+
+.heading.center .typography-content {
+  align-self: stretch;
+  text-align: center;
+}
+
+.heading.standard.left .typography-content {
+  flex: 1;
+}

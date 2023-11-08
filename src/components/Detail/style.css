@@ -1,0 +1,35 @@
+.detail {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 280px;
+}
+
+.detail .typography-content-2 {
+  flex: 1;
+  font-family: var(--content-detail-1-font-family);
+  font-size: var(--content-detail-1-font-size);
+  font-style: var(--content-detail-1-font-style);
+  font-weight: var(--content-detail-1-font-weight);
+  letter-spacing: var(--content-detail-1-letter-spacing);
+  line-height: var(--content-detail-1-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.detail .color-0-standard {
+  color: var(--filltextprimary);
+}
+
+.detail .color-0-inverse {
+  color: var(--filltextprimary-inverse);
+}
+
+.detail .alignment-0-right {
+  text-align: right;
+}
+
+.detail .alignment-0-center {
+  text-align: center;
+}

@@ -1,0 +1,86 @@
+.detail-group {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 375px;
+}
+
+.detail-group .group {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.detail-group .detail-2 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.detail-group .heading-3 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.detail-group .class {
+  align-self: unset !important;
+  color: var(--filltextinverse) !important;
+  white-space: nowrap !important;
+  width: fit-content !important;
+}
+
+.detail-group .detail-1 {
+  align-items: center !important;
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  gap: unset !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.detail-group .class-2 {
+  color: var(--filltextinverse) !important;
+  flex: unset !important;
+  white-space: nowrap !important;
+  width: fit-content !important;
+}
+
+.detail-group .divider-y {
+  align-self: stretch;
+  margin-bottom: -0.5px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 1px;
+}
+
+.detail-group .img {
+  height: 47px;
+  position: relative;
+  width: 1px;
+}
+
+.detail-group .detail-3 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.detail-group .detail-instance {
+  align-items: flex-end !important;
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  justify-content: center !important;
+  width: 100% !important;
+}

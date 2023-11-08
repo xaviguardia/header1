@@ -1,0 +1,1 @@
+export { DetailGroup } from "./DetailGroup";

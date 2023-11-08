@@ -1,0 +1,28 @@
+.header-confirmation {
+  align-items: center;
+  background-color: var(--backgroundsurfaceinverse);
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 20px 32px;
+  position: relative;
+}
+
+.header-confirmation .title {
+  flex: 0 0 auto !important;
+  width: 311px !important;
+}
+
+.header-confirmation .headline-balance-instance {
+  display: flex !important;
+  flex: 0 0 auto !important;
+  gap: unset !important;
+  min-width: unset !important;
+  width: 311px !important;
+}
+
+.header-confirmation .detail-group-instance {
+  flex: 0 0 auto !important;
+  padding: 24px 0px 0px !important;
+  width: 335px !important;
+}
